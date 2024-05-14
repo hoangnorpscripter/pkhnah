@@ -1,0 +1,189 @@
+body{
+    background-image: url(./all/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.avata{
+    display: flex;
+    height: 200px;
+    weight: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 90px;
+}
+
+.avata img {
+    border-radius: 100%;
+    border-image: 10px;
+    border: 4px solid rgb(236, 112, 99) ;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: adu;
+    text-shadow: 0px 0px 20px #e66465;
+}
+
+@font-face {
+    font-family: adu;
+    src: url(./all/fontsex.ttf);
+}
+@font-face {
+    font-family: adi;
+    src: url(./all/fontsex2.ttf);
+}
+
+.box{
+    margin-top: 30px;
+    width: 400px;
+    height: 800px;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: 0px 0px 10px 2px black;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    border-radius: 35px;
+    margin-bottom: 50px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-left: 10px;
+    font-family: adu;
+    font-size: 30px;
+    margin-left: 90px;
+}
+
+.facebook-button{
+    background-color: rgb(52, 152, 219, 0.8);
+    border: none;
+    border-radius: 25px;
+    padding-left: 235px;
+    padding-bottom: 23px;
+    box-shadow: 0px 0px 7px 3px;
+}
+
+.github-button{
+    background-color: rgb(130, 224, 170, 0.8);
+    border: none;
+    border-radius: 25px;
+    padding-left: 250px;
+    padding-bottom: 23px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0px 0px 7px 3px;
+}
+
+.tiktok-button{
+    background-color: rgb(248, 196, 113, 0.8);
+    border: none;
+    border-radius: 25px;
+    padding-left: 250px;
+    padding-bottom: 23px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 0px 7px 3px;
+}
+a{
+    text-decoration: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 40px;
+}
+#text-facebook{
+    position: relative;
+    right: 120px;
+    top: 12px;
+    font-family: adi;
+    color: #2874A6 ;
+}
+#text-github{
+    position: relative;
+    right: 120px;
+    top: 12px;
+    font-family: adi;
+    color: #239B56;
+}
+#text-tiktok{
+    position: relative;
+    right: 120px;
+    top: 12px;
+    font-family: adi;
+    color: #B7950B ;
+}
+
+.icon-facebook > img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    right: 130px;
+}
+
+.icon-github > img{
+    width: 33px;
+    height: auto;
+    position: relative;
+    top: 22px;
+    right: 130px;
+}
+
+.icon-tiktok > img{
+    width: 45px;
+    height: auto;
+    position: relative;
+    top: 22px;
+    right: 130px;
+}
+
+#skill{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: adu;
+}
+
+.img-lua > img{
+    width: 40px;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+
+.img-html > img{
+    width: 40px;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+
+#aboutkhanh{
+    margin-top: 35px;
+}
+.text-about{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: adi;
+}
+
+p{
+    padding-right: 30px;
+    text-shadow: 0px 0px 20px #e243f7;
+}
+
+.bri{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.end{
+    text-align: center;
+    margin-bottom: 20px;
+}
